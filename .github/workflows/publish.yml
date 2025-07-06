@@ -32,7 +32,7 @@ jobs:
         git config user.name "$GITHUB_ACTOR"
         git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
     - name: Helm tool installer
-      uses: azure/setup-helm@v4.2.0
+      uses: azure/setup-helm@v4.3.0
     - name: Delete existing release if exists
       env:
         GH_TOKEN: ${{ github.token }}
@@ -40,7 +40,7 @@ jobs:
         ./scripts/delete-release.sh -r ${{ github.repository }}
     # TODO: Sign the chart
     - name: Run chart-releaser
-      uses: helm/chart-releaser-action@v1.6.0
+      uses: helm/chart-releaser-action@v1.7.0
       env:
         # set directly parameters to chart-releaser cli
         CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
