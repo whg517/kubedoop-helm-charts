@@ -69,16 +69,16 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 0.0.0-dev
-    created: "2025-08-03T09:37:45.305042095Z"
+    created: "2025-08-03T09:48:54.240778006Z"
     description: Commons operator of Kubedoop
-    digest: a8b1c9e5f5a1e3674913185807c3742e170f1711fca342243c6fbf19a7586ad0
+    digest: 2bb1d963c0350287d66a42edab17321390f014ff3d7d1b070b31ef505e1e9e92
     maintainers:
     - email: zncdatadev@googlegroups.com
       name: ZNCDataDev Team
     name: commons-operator
     type: application
     urls:
-    - oci://quay.io/kubedoopcharts/charts/commons-operator-0.0.0-dev.tgz
+    - oci://quay.io/kubedoopcharts/commons-operator-0.0.0-dev
     version: 0.0.0-dev
   dolphinscheduler-operator:
   - apiVersion: v2
@@ -520,4 +520,4 @@ entries:
     urls:
     - https://github.com/zncdatadev/kubedoop-helm-charts/releases/download/zookeeper-operator-0.0.0-dev/zookeeper-operator-0.0.0-dev.tgz
     version: 0.0.0-dev
-generated: "2025-08-03T09:37:45.304441288Z"
+generated: "2025-08-03T09:48:54.240151508Z"
